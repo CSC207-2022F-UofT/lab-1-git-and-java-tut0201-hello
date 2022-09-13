@@ -10,7 +10,6 @@ public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
      * Do NOT change this method!
      *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
@@ -33,13 +32,15 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    /* TODO: In the space below, write your our method.
-     *       The method should be named with your utorID and should call
-     *       printLabMessage with some parameters.
-     *
+     /*
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+
+    public static String kimcheaw() {
+        return printLabMessage("Hey", "Cheawon Kim",
+                false, "Glad to take this course!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -52,9 +53,9 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(kimcheaw());
 
-        /* TODO: Add a call to the method you wrote in this main method,
-         *        and print the results of it.
+        /*
          *
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
@@ -63,6 +64,6 @@ public class IntroLab {
 
     }
 
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
+    //
 
 }
